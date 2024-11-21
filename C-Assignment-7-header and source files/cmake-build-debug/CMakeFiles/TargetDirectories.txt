@@ -1,0 +1,3 @@
+C:/Users/burni/Downloads/C-Assignment-6-Working-with-files-main/C-Assignment-6-Working-with-files-main/cmake-build-debug/CMakeFiles/untitled.dir
+C:/Users/burni/Downloads/C-Assignment-6-Working-with-files-main/C-Assignment-6-Working-with-files-main/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/burni/Downloads/C-Assignment-6-Working-with-files-main/C-Assignment-6-Working-with-files-main/cmake-build-debug/CMakeFiles/rebuild_cache.dir
