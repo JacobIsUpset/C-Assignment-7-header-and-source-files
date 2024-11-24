@@ -5,4 +5,5 @@ set(CMAKE_C_STANDARD 11)
 
 add_executable(untitled main.c
         HelperFunctions.c
-        HelperFunctions.h)
+        HelperFunctions.h
+)

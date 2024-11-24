@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#include "helperFunctions.h"
+#include "HelperFunctionsCombined.h"
 
 #define MAX_NUM_OF_STUDENTS 100
 
@@ -49,7 +49,7 @@ int main() {
                 continue;
             }
 
-            openFile(&numOfStudents, students);
+            readFromFile(&numOfStudents, students);
 
             addNewStudent(numOfStudents, students);
 
@@ -63,11 +63,11 @@ int main() {
             removeStudent(&numOfStudents, students);
             writeToFile(numOfStudents, students);
             numOfStudents--;
-        } else if (menuValue == 4){   // DONE
+        } else if (menuValue == 4){
             openFile(&numOfStudents, students);
             gradeCalculations(numOfStudents,students);
 
-        } else if (menuValue == 5){   // DONE
+        } else if (menuValue == 5){
             // End the program when this option is selected.
             printf("goodbye!");
             break;
